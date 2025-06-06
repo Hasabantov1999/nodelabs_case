@@ -18,9 +18,13 @@ import 'package:sinflix_app/schemas/http/movies_schema/movies_schema.dart';
 import 'package:sinflix_app/schemas/http/user_profile_response_schema/user_profile_response_schema.dart';
 
 import 'package:sinflix_app/screens/add_photo/add_photo.dart';
+import 'package:sinflix_app/screens/dashboard/src/components/movies_comp.dart';
 import 'package:sinflix_app/screens/dashboard/src/pages/limited_offers_modal.dart';
+import 'package:sinflix_app/screens/settings/settings.dart';
 import 'package:sinflix_app/services/user_service.dart';
 
 part 'src/controller/__init__.dart';
 part 'src/service/__init__.dart';
 part 'src/view/__init__.dart';
+part 'src/pages/page_one.dart';
+part 'src/pages/page_two.dart';

@@ -99,6 +99,7 @@ class SignUpView extends StatelessWidget {
                       if (val != controller.passwordController.text) {
                         return 'Şifreler birbiriyle eşleşmeli';
                       }
+                      return null;
                     },
                     validationManager: controller.validationManager,
                   ),

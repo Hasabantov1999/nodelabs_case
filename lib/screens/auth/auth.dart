@@ -15,7 +15,6 @@ import 'package:sinflix_app/repository/auth/auth_repository.dart';
 import 'package:sinflix_app/schemas/http/login_request_schema/login_request_schema.dart';
 import 'package:sinflix_app/screens/auth/src/components/app_extra_login_comp.dart';
 import 'package:sinflix_app/screens/auth/src/components/app_redirect_register_comp.dart';
-import 'package:sinflix_app/screens/dashboard/dashboard.dart';
 import 'package:sinflix_app/services/user_service.dart';
 
 part 'src/controller/__init__.dart';

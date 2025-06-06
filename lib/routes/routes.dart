@@ -15,8 +15,7 @@ enum AppRoutes {
       mobile: AuthView(),
       path: '/auth',
     ),
-  ),
-  Splash(
+  ),Splash(
     route: CleanArchRoute(
       mobile: SplashView(),
       path: '/splash',
