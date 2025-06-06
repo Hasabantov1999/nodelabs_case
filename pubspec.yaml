@@ -1,0 +1,73 @@
+name: sinflix_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.3.6
+  permission_handler: ^11.0.0
+  wakelock_plus: ^1.2.10
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
+  lottie: ^3.3.1
+  animate_do: ^4.2.0
+  font_awesome_flutter: ^10.8.0
+  smooth_page_indicator: ^1.2.1
+  modal_bottom_sheet: ^3.0.0
+  custom_refresh_indicator: ^4.0.1
+  favorite_button: ^0.0.4
+  image_picker: ^1.1.2
+  clean_arch:
+      git: https://github.com/Hasabantov1999/clean_arch.git
+  flutter_svg: ^2.1.0
+  cached_network_image: ^3.4.1
+  http: ^1.4.0
+  path: ^1.9.1
+  rename: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.15
+  flutter_launcher_icons: "^0.14.3"
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/SinFlixLogo.png"
+
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
+    - assets/
+    - assets/images/
+    - assets/lottie/
+    - assets/splash/
+    - assets/voices/
+    - assets/i18n/
+    - assets/jsons/
+    - assets/core/
+    - assets/fonts/
+
+  fonts:
+    - family: Euclid Circular A
+      fonts:
+        - asset: assets/fonts/euclid-circular-a/Euclid Circular A Regular.ttf
+        - asset: assets/fonts/euclid-circular-a/Euclid Circular A Bold.ttf
+          weight: 700  # Bold için ağırlık belirtildi
+        - asset: assets/fonts/euclid-circular-a/Euclid Circular A Italic.ttf
+          style: italic  # Italic için stil belirtildi
